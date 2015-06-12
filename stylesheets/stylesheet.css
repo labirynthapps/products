@@ -44,9 +44,9 @@ table {
   border-spacing: 0;
 }
 
-::selection {background: #e3e3e3;}
-::-moz-selection {background: #e3e3e3;}
-::-webkit-selection {background: #e3e3e3; color:#fff;}
+::selection {background: #f7f7f7;}
+::-moz-selection {background: #f7f7f7;}
+::-webkit-selection {background: #f7f7f7; color:#fff;}
 
 /*******************************************************************************
 Theme Styles
