@@ -51,11 +51,16 @@ Theme Styles
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #212121;
+  background: url(../images/nastol.png);
+  background-attachment:fixed;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+}
+
+.bg {
+  background: url(../images/nastol2.png);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,8 +84,9 @@ h2 {
 
 h3 {
   font-size: 18px;
-  font-family: 'Exo 2', sans-serif;
+font-family: 'Open Sans', sans-serif;
   text-align: center;
+  padding: 15px;
 }
 
 h4 {
@@ -100,6 +106,10 @@ p {
   margin: 0px;
   font-family: 'Exo 2', sans-serif;
   font-size: 15px;
+}
+
+.contacts {
+  font-family: 'Exo 2', sans-serif;
 }
 
 footer p {
@@ -240,15 +250,17 @@ hr {
 
 table {
   border: 1px solid #373737;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   text-align: left;
+  border-right: none;
+  border-left: none;
  }
 
 th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
-  background: #373737;
-  color: #fff;
+  background: url(../images/back3.png);
+  color: #e2e2e2;
  }
 
 td {
@@ -260,6 +272,19 @@ form {
   background: #f2f2f2;
   padding: 20px;
 }
+
+table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+tr {
+  background: url(../images/back2.png);
+}
+
+
 
 /*******************************************************************************
 Full-Width Styles
@@ -274,6 +299,14 @@ Full-Width Styles
   max-width: 1000px;
   padding: 20px 10px;
   margin: 0 auto;
+}
+
+header {
+  position: relative;
+  max-width: 1000px;
+  padding: 10px 10px;
+  margin: 0 auto;
+}
 }
 
 #forkme_banner {
@@ -292,13 +325,7 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
-  opacity: 1;
+  background: url(../images/back0.png);
 }
 
 #header_wrap .inner {
@@ -362,18 +389,19 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: url(../images/nastol.png);
-  background-attachment:fixed;
-  background-position: 0px 100px;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
   padding-top: 20px;
 }
 
 #main_content {
-  height: 1500px;
+  height: 2500px;
   background: url(../images/back.png);
   padding: 0px;
+}
+
+#main_content2 {
+
 }
 
 #footer_wrap {
@@ -386,6 +414,22 @@ Full-Width Styles
   text-align: center;
 }
 
+#logo {
+  background: url(../images/logo2.png) no-repeat;
+  width: 242px;
+  height: 36px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#manual {
+  width: 1188px;
+  height: 1042px;
+  margin-right: auto;
+  margin-left: auto;
+  background: url(../images/Manual.png) no-repeat;
+}
+
 .boxtitle {
   width: 100%;
   background: url(../images/back2.png);
@@ -394,9 +438,14 @@ Full-Width Styles
 }
 .boxtext {
   width: 100%;
-  background: url(../images/back.png);
+  background: url(../images/back2.png);
   margin: 0px;
-  height: 800px;
+}
+
+.boxtext2 {
+  width: 100%;
+  background: url(../images/back2.png);
+  margin-bottom: 10px;
 }
 
 .boxdescr {
@@ -412,8 +461,38 @@ Full-Width Styles
   height: 415px;
 }
 
+.informer {
+  background: url(../images/informer.png);
+  width: 100%;
+  height: 466px;
+}
+
+.sizer {
+  margin-top: 10px;
+  width: 64%;
+  height: 340px;
+  float: left;
+  background: url(../images/back2.png);
+}
+
+.warn {
+  margin-top: 10px;
+  width: 36%;
+  height: 340px;
+  background: url(../images/back4.png);
+  float: right;
+}
+
+
+.warn p {
+  color: white;
+}
+
 ul {
   padding-left: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 ul li {
