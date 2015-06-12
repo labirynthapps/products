@@ -44,6 +44,10 @@ table {
   border-spacing: 0;
 }
 
+::selection {background: #e3e3e3;}
+::-moz-selection {background: #e3e3e3;}
+::-webkit-selection {background: #e3e3e3; color:#fff;}
+
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
@@ -487,6 +491,10 @@ header {
 .warn p {
   color: white;
 }
+
+.warn p::selection {background: #838383;}
+.warn p::-moz-selection {background: #838383;}
+.warn p::-webkit-selection {background: #838383;}
 
 ul {
   padding-left: 30px;
